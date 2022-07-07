@@ -73,8 +73,8 @@ return flaggedCells;<br/>
 11. Extract try/catch blocks and prefer exceptions to returning error codes. 
 12. Error handling is one thing, so 
   
-  `public void delete(Page page) {`
-`try {`
+public void delete(Page page) {<br/>
+try {
 deletePageAndAllReferences(page);<br/>
 }<br/>
 catch (Exception e) {<br/>
@@ -88,4 +88,6 @@ configKeys.deleteKey(page.name.makeKey());<br/>
 }<br/>
 private void logError(Exception e) {<br/>
 logger.log(e.getMessage());<br/>
-}`
+}
+
+
