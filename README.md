@@ -100,7 +100,8 @@ logger.log(e.getMessage());<br/>
 ule and we know it is confusing and disorganized. We know it’s a mess. So we say to our-
 selves, “Ooh, I’d better comment that!” No! You’d better clean it!**
   **Explain Yourself in Code**
-  ![write code not comments](https://i.ibb.co/CQx4c5f/ksnip-20220707-233833.png)
+
+![write code not comments](https://i.ibb.co/CQx4c5f/ksnip-20220707-233833.png)
   
   ### Good Comments
   1. Legal Comments like copywrite etc
