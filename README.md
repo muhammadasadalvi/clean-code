@@ -20,17 +20,17 @@ Choosing good names takes time but saves more than it takes.
 **e.g. int deysSinceCreation;**
 
 **Example 1: With Bad Naming Conventions** 
-public List<int[]> getThem() {
-List<int[]> list1 = new ArrayList<int[]>();
-for (int[] x : theList)
-if (x[0] == 4)
-list1.add(x);
-return list1;
+public List<int[]> getThem() {<br/>
+List<int[]> list1 = new ArrayList<int[]>();<br/>
+for (int[] x : theList)<br/>
+if (x[0] == 4)<br/>
+list1.add(x);<br/>
+return list1;<br/>
 }
 
 **Example 1: With Good Naming Conventions**
-public List<int[]> getFlaggedCells() {
-List<int[]> flaggedCells = new ArrayList<int[]>();
+public List<int[]> getFlaggedCells() {<br/>
+List<int[]> flaggedCells = new ArrayList<int[]>();<br/>
 for (int[] cell : gameBoard)
 if (cell[STATUS_VALUE] == FLAGGED)
 flaggedCells.add(cell);
