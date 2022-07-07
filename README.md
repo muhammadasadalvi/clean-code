@@ -31,18 +31,18 @@ return list1;<br/>
 **Example 1: With Good Naming Conventions**
 public List<int[]> getFlaggedCells() {<br/>
 List<int[]> flaggedCells = new ArrayList<int[]>();<br/>
-for (int[] cell : gameBoard)
-if (cell[STATUS_VALUE] == FLAGGED)
-flaggedCells.add(cell);
-return flaggedCells;
+for (int[] cell : gameBoard)<br/>
+if (cell[STATUS_VALUE] == FLAGGED)<br/>
+flaggedCells.add(cell);<br/>
+return flaggedCells;<br/>
 }
 
 **Example 1: Modified Version**
-public List<Cell> getFlaggedCells() {
-List<Cell> flaggedCells = new ArrayList<Cell>();
-for (Cell cell : gameBoard)
-if (cell.isFlagged())
-flaggedCells.add(cell);
-return flaggedCells;
+public List<Cell> getFlaggedCells() {<br/>
+List<Cell> flaggedCells = new ArrayList<Cell>();<br/>
+for (Cell cell : gameBoard)<br/>
+if (cell.isFlagged())<br/>
+flaggedCells.add(cell);<br/>
+return flaggedCells;<br/>
 }
 
