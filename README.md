@@ -62,7 +62,7 @@ return flaggedCells;<br/>
 2. if, else, while blocks should be one line long and indent level not more than one to two indent level. 
 
 **FUNCTIONS SHOULD DO ONE THING . THEY SHOULD DO IT WELL .THEY SHOULD DO IT ONLY .**
-3. **Do One Thing** -> the function doing one thing should not be divide into functions
+1. **Do One Thing** -> the function doing one thing should not be divide into functions
 4. One Level of abstraction per function.
 5. Reading Code From Top to Bottom
 6. Switch statement may violate the above rules because there are rare cases when swtich do only one thing, but the things should remain that thing should not repeat and use abstract factory under the hood which not show to everyone.
