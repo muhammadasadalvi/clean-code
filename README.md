@@ -90,4 +90,6 @@ private void logError(Exception e) {<br/>
 logger.log(e.getMessage());<br/>
 }
 
-
+**DON'T REPEAT YOUR SELF.........FUNCTION SHOULD HAVE ONE ENTRY AND ONE EXIT POINT.......**
+  
+![how to write a function](https://i.ibb.co/Tc0qdNS/ksnip-20220707-233003.png)
