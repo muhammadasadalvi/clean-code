@@ -61,5 +61,30 @@ return flaggedCells;<br/>
 1. The First Rule is: Function should be small 20-30 lines max
 2. if, else, while blocks should be one line long and indent level not more than one to two indent level. 
 
-**FUNCTIONS SHOULD DO ONE THING . T HEY SHOULD DO IT WELL .THEY SHOULD DO IT ONLY .**
-
+**FUNCTIONS SHOULD DO ONE THING . THEY SHOULD DO IT WELL .THEY SHOULD DO IT ONLY .**
+3. **Do One Thing** -> the function doing one thing should not be divide into functions
+4. One Level of abstraction per function.
+5. Reading Code From Top to Bottom
+6. Switch statement may violate the above rules because there are rare cases when swtich do only one thing, but the things should remain that thing should not repeat and use abstract factory under the hood which not show to everyone.
+7. Use Descriptive name, don't afraid of having long names. Don't afraid to spend time choosing name. A good descriptive long name is better than a long comment.
+8. **Functional Arguments** Ideal number of arguments for a function is zero, one is bearable and two are not. with two or more argument it is difficult to test each combination.
+9. Function should have as less as small number of argument. 
+10. Use Verbs and keywords while writing names,
+11. Extract try/catch blocks and prefer exceptions to returning error codes. 
+12. Error handling is one thing, so 
+  `public void delete(Page page) {
+try {
+deletePageAndAllReferences(page);
+}
+catch (Exception e) {
+logError(e);
+}
+}
+private void deletePageAndAllReferences(Page page) throws Exception {
+deletePage(page);
+registry.deleteReference(page.name);
+configKeys.deleteKey(page.name.makeKey());
+}
+private void logError(Exception e) {
+logger.log(e.getMessage());
+}`
