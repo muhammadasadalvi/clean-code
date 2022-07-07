@@ -73,8 +73,8 @@ return flaggedCells;<br/>
 11. Extract try/catch blocks and prefer exceptions to returning error codes. 
 12. Error handling is one thing, so 
   
-  `public void delete(Page page) {<br/>
-try {<br/>
+  `public void delete(Page page) {`
+`try {`
 deletePageAndAllReferences(page);<br/>
 }<br/>
 catch (Exception e) {<br/>
