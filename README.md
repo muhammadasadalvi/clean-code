@@ -57,5 +57,8 @@ return flaggedCells;<br/>
 
 ---
 
-  
+# Functions
+1. The First Rule is: Function should be small 20-30 lines max
+2. if, else, while blocks should be one line long and indent level not more than one to two indent level. 
+**FUNCTIONS SHOULD DO ONE THING . T HEY SHOULD DO IT WELL .THEY SHOULD DO IT ONLY .**
 
