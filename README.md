@@ -46,3 +46,14 @@ flaggedCells.add(cell);<br/>
 return flaggedCells;<br/>
 }
 
+1. Use Pronounceable Name
+2. Use Searchable name instead of number etc. like 7, 5 use const int NUMBER_OF_WEEK_DAYS = 7;
+3. Avoid encoding
+4. Class Names - Classes and Object should have noun and noun phrase names like **Customer**, **WikiPage**
+5. Method Name - method names are verb and verb phrase postPayment, deletePage, save
+6. Don't be cute, names should be clever and easy to remember i.e. **Say what you mean. Mean what you say**
+7. Pick one Word Per Concept.
+8. Add meaningful context, like state if it is part of form then we can understand it is part of address but if use in another function then we cannot undersatnd, addrState is giving context.
+
+  
+
